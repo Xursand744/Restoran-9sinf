@@ -13,10 +13,10 @@
 
 <body>
 
-    <header class="bg-[url('./img/header.png')] bg-no-repeat bg-cover h-screen">
-        <nav class="container mx-auto lg:px-16 px-4 flex flex-wrap items-center py-4">
+    <header class="bg-[url('./img/header.png')] bg-no-repeat bg-cover h-screen flex flex-col">
+        <nav class="max-w-[1138px] w-full mx-auto  px-4 flex flex-wrap items-center py-4">
             <div class="flex-1 flex justify-between items-center">
-                <a href="#" class="text-xl"><img src="img/LOGO.png" alt=""></a>
+                <a href="#" class="shrink-0 text-xl"><img class="" src="./img/LOGO.png" alt=""></a>
             </div>
 
             <label for="menu-toggle" class="pointer-cursor md:hidden block">
@@ -48,7 +48,28 @@
                 </nav>
             </div>
         </nav>
+
+
+        <div class="max-w-[1138px] w-full mx-auto flex flex-col justify-center items-start flex-grow">
+            <div class="text-center">
+                <h3 class="text-[#D67E35] text-[50px]">Добро пожаловать в</h3>
+                <h2 class="text-[#D67E35] text-[80px]">Наш ресторан</h2>
+                <span class="text-white block text-lg before:content-[''] before:absolute 
+                relative before:w-[50px] before:h-[2px] w-max mx-auto before:bg-white before:-left-[30%]
+                 before:top-[50%] 
+                 after:right-[-30%] after:content-[''] after:w-[50px] after:h-[2px] after:bg-white after:top-[50%]
+                 after:absolute mb-5
+                
+                ">ДОМ ЛУЧШЕЙ ЕДЫ</span>
+                <a class="py-[14px] px-5 inline-block hover:bg-[#694c33] transition-[5ms]
+                bg-[#FF7400] text-white text-sm font-bold ml-16 "
+                                    href="#">VIEW MENU</a>
+            </div>
+        </div>
+
     </header>
+
+
 
 </body>
 
